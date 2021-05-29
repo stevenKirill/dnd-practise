@@ -1,0 +1,32 @@
+body {
+    background-color: olivedrab;
+}
+
+.empty {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: orangered;
+    display: inline-block;
+}
+
+.fill {
+    background-color: paleturquoise;
+    width: 180px;
+    height: 180px;
+    cursor: pointer;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.hovered {
+    background-color: slategray;
+    border: 1px dashed saddlebrown;
+}
+.invisible {
+    display: none;
+}
+.from {
+    opacity: 50%;
+    border: 1px dashed palevioletred;
+}
